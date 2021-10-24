@@ -9,4 +9,6 @@ def decipher(l):
         return l
     else:
 		ind = abc.find(l) + 2
+		return list(islice(cycle(abc), ind))[-1]
 
+thing = 
