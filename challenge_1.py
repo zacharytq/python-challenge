@@ -8,7 +8,7 @@ def decipher(l):
     if not_letter.match(l):
         return l
     else:
-        ind = abc.find(l) + 2
+        ind = abc.find(l) + 3
         return list(islice(cycle(abc), ind))[-1]
 
 
